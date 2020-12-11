@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kristinadurant <kristinadurant.p@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && yarn run start",
+    "db:reset": "node server/db/seeds",
+    "dev": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run client\"",
+    "heroku-postbuild": "cd client && yarn && yarn run build",
+    "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
