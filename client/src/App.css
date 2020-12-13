@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+header {
+  position: absolute;
+  background-color: 000;
+}
+footer {
+  position: absolute;
+  background-color: #000;
+  bottom: 0;
+}
+#home {
+  width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+  background-image: url(./images/developerbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(12, 12, 12);
+  background-attachment: fixed;
+}
+#home section {
+  height: 100vh;
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#home #about {
+  background-color: rgba(57, 15, 85, 0.8);
+}
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#portfolio ul {
+  display: flex;
+}
+#portfolio ul li {
+  width: 25%;
+  padding-top: 20%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#portfolio ul a {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
