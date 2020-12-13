@@ -27,7 +27,7 @@ const Portfolio = () => {
 console.log(portfolio);
     return (
         <section id="portfolio">
-            <h3>Portfolio</h3>
+            <h3>PORTFOLIO</h3>
             <ul>
                 {portfolio.map((site, index)=> (
                     <li key={index} style={{backgroundImage: `url(${site.image})`}}>

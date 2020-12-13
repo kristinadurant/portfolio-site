@@ -3,11 +3,27 @@
   padding: 0;
   text-decoration: none;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 ul {
   list-style: none;
 }
 img {
   max-width: 100%;
+}
+button,
+button:active,
+button:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
 }
 header {
   position: absolute;
@@ -33,17 +49,71 @@ footer {
   min-height: 600px;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/*======================
+    BANNER SECTION
+========================*/
 #banner {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-family: "Orbitron", sans-serif;
 }
 
+/*======================
+    ABOUT SECTION
+========================*/
 #home #about {
-  background-color: rgba(57, 15, 85, 0.8);
+  background-color: rgb(34 9 51 / 95%);
+  display: flex;
+  align-items: center;
 }
+#about h3 {
+  text-align: center;
+}
+#about #more {
+  width: 50%;
+  margin-right: 10%;
+}
+#about .tabs div {
+  margin-bottom: 10%;
+  border-left: 1px solid #c574d4;
+  padding-left: 5%;
+}
+#about .tabs > :first-child h6 {
+  margin-bottom: 1%;
+}
+h6 {
+  margin-bottom: 5%;
+}
+h6 button {
+  color: #c574d4;
+  font-size: 1.2rem;
+  font-family: "Orbitron", sans-serif;
+}
+h6 button:hover {
+  text-decoration: underline;
+}
+.headline {
+  font-family: "Orbitron", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+#about .tabs li {
+  margin-bottom: 5%;
+}
+#about .tabs .where {
+  font-size: 0.8rem;
+}
+.time {
+  display: none;
+}
+/*======================
+    PORTFOLIO SECTION
+========================*/
 #portfolio {
   display: flex;
   flex-direction: column;
