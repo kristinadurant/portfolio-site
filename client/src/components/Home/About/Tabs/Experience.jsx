@@ -8,7 +8,7 @@ const Experience = () => {
                     <h2 className="headline">Frontend Web Developer</h2>
                     <p className="where">Freelance</p>
                     <p className="time">Nov, 2016 - Present</p>
-                    <ul>
+                    <ul className="list-indented">
                         <li>100% job success and 5 star freelancer on Upwork.com</li>
                         <li>Developed WordPress themes from scratch using HTML5, CSS3 
                             and JavaScript and customized existing WordPress themes to match client's specific designs
@@ -21,7 +21,7 @@ const Experience = () => {
                     <h2 className="headline">Server/Maitre D</h2>
                     <p className="where">Quality Meats, Miami Beach, FL</p>
                     <p className="time">Sept, 2017 - March, 2020</p>
-                    <ul>
+                    <ul  className="list-indented">
                         <li>100% job success and 5 star freelancer on Upwork.com</li>
                         <li>Developed WordPress themes from scratch using HTML5, CSS3 
                             and JavaScript and customized existing WordPress themes to match client's specific designs
@@ -34,7 +34,7 @@ const Experience = () => {
                     <h2 className="headline">Math Tutor</h2>
                     <p className="where">Self-employed, Subotica, Serbia</p>
                     <p className="time">Oct, 2014 - June, 2017</p>
-                    <ul>
+                    <ul className="list-indented">
                         <li>Tutored Math and Accounting to students from Middle School to College levels</li>
                         <li>Coached Middle School students for Math Competitions</li>   
                     </ul>

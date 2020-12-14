@@ -10,17 +10,17 @@ const Portfolio = () => {
         },
         {
             title: 'Pokecode',
-            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607876454/portfolio-site/Screen_Shot_2020-12-13_at_11.20.02_AM_d625ut.png',
+            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607902250/portfolio-site/Screen_Shot_2020-12-13_at_6.30.33_PM_p8qlo3.png',
             link: 'https://pokedex-catchthemall.herokuapp.com/',
         },
         {
             title: 'Morning Sun Blog',
-            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607876076/portfolio-site/Screen_Shot_2020-12-13_at_11.09.04_AM_dm9utz.png',
+            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607901610/portfolio-site/Screen_Shot_2020-12-13_at_6.18.57_PM_ebdzeq.png',
             link: 'http://morningsunblog.com/'
         },
         {
             title: 'Schoen Builders',
-            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607875268/portfolio-site/Screen_Shot_2020-12-13_at_10.49.44_AM_pgbnwq.png',
+            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607901939/portfolio-site/Screen_Shot_2020-12-13_at_6.25.24_PM_ar0cfh.png',
             link: 'http://schoenbuilders.com/',
         }
     ]

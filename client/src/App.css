@@ -89,13 +89,38 @@ header li:first-of-type {
   background-color: rgb(34 9 51 / 95%);
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+#about .inner {
+  display: flex;
+  max-width: 1280px;
+  width: 90%;
 }
 #about h3 {
-  text-align: center;
+  text-align: left;
 }
 #about #more {
   width: 50%;
   margin-right: 10%;
+}
+#about #more > div > ul > li {
+  margin-bottom: 5%;
+}
+#about #more .where {
+  margin-bottom: 1rem;
+}
+#about .list-indented {
+  list-style: square;
+  margin-left: 1.5rem;
+}
+#about .skills div {
+  margin-bottom: 10%;
+}
+#about .skills .headline {
+  margin-bottom: 1.5rem;
+}
+#about .skills p {
+  margin-bottom: 0.5rem;
 }
 #about .tabs div {
   margin-bottom: 10%;
@@ -121,11 +146,12 @@ h6 button:hover {
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: 0.25rem;
+  font-weight: 700;
 }
 #about .tabs li {
   margin-bottom: 5%;
 }
-#about .tabs .where {
+#about .where {
   font-size: 0.8rem;
 }
 .time {
@@ -137,7 +163,13 @@ h6 button:hover {
 #portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+#portfolio h3 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 #portfolio ul {
   display: flex;
