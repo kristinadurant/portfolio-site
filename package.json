@@ -7,6 +7,8 @@
   "dependencies": {
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
+    "global": "^4.4.0",
+    "less": "^3.13.0",
     "react-router-hash-link": "^2.3.1"
   },
   "scripts": {
@@ -16,7 +18,8 @@
     "db:reset": "node server/db/seeds",
     "dev": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run client\"",
     "heroku-postbuild": "cd client && yarn && yarn run build",
-    "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write"
+    "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write",
+    "lessc": "cd client/src && /usr/local/bin/lessc App.less App.css"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",

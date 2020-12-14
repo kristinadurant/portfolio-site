@@ -1,3 +1,5 @@
+@accent-color: white;
+@color: #66fcf1;
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +39,7 @@ footer {
   background-image: url(./images/developerbg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
   background-attachment: fixed;
 }
 #home section {
@@ -45,6 +47,7 @@ footer {
   min-height: 600px;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 /*======================
       HEADER
   ========================*/
@@ -59,16 +62,17 @@ header ul {
   text-align: center;
 }
 header li {
-  border-left: 1px solid white;
+  border-left: 1px solid @accent-color;
   display: inline-block;
   padding: 0 2%;
 }
 header li a {
-  color: white;
+  color: @accent-color;
 }
 header li:first-of-type {
   border-left: none;
 }
+
 /*======================
       INTRO SECTION
   ========================*/
@@ -81,12 +85,12 @@ header li:first-of-type {
   font-family: "Orbitron", sans-serif;
 }
 #intro h1 p {
-  color: #66fcf1;
+  color: @color;
   font-size: 2rem;
   line-height: 2;
 }
 #intro a {
-  border: 1px solid #66fcf1;
+  border: 1px solid @color;
   padding: 1rem;
   text-transform: uppercase;
 }
@@ -94,7 +98,7 @@ header li:first-of-type {
       ABOUT SECTION
   ========================*/
 #home #about {
-  background-color: rgb(34 9 0.53684211%);
+  background-color: rgb(34 9 51 / 95%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +136,7 @@ header li:first-of-type {
 }
 #about .tabs div {
   margin-bottom: 10%;
-  border-left: 1px solid #66fcf1;
+  border-left: 1px solid @color;
   padding-left: 5%;
 }
 #about .tabs div:hover {
@@ -145,7 +149,7 @@ h6 {
   margin-bottom: 5%;
 }
 h6 button {
-  color: #66fcf1;
+  color: @color;
   font-size: 1.2rem;
   font-family: "Orbitron", sans-serif;
 }
@@ -203,6 +207,7 @@ h6 button:hover {
   justify-content: center;
   align-items: center;
 }
+
 /*======================
       CONTACT SECTION
   ========================*/
@@ -226,5 +231,8 @@ h6 button:hover {
   margin-right: 1rem;
 }
 #contact .pdf a {
-  color: #551a8b;
+  color: @color;
+}
+#contact .pdf a i {
+  color: @color;
 }

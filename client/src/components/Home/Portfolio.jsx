@@ -10,7 +10,7 @@ const Portfolio = () => {
         },
         {
             title: 'Pokecode',
-            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607902250/portfolio-site/Screen_Shot_2020-12-13_at_6.30.33_PM_p8qlo3.png',
+            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607970931/portfolio-site/Screen_Shot_2020-12-14_at_11.47.17_AM_echehu.png',
             link: 'https://pokedex-catchthemall.herokuapp.com/',
         },
         {
@@ -20,7 +20,7 @@ const Portfolio = () => {
         },
         {
             title: 'Schoen Builders',
-            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607901939/portfolio-site/Screen_Shot_2020-12-13_at_6.25.24_PM_ar0cfh.png',
+            image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607971148/portfolio-site/Screen_Shot_2020-12-14_at_1.38.50_PM_n7abrm.png',
             link: 'http://schoenbuilders.com/',
         }
     ]
