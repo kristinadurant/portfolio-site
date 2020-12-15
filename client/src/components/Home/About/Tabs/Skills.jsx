@@ -3,21 +3,22 @@ import React from 'react';
 const Skills = () => {
     return (
         <div className="skills">
+            <p className="title">SKILLS</p>
             <div>
-                <p className="headline">Tools & Technologies</p>
+                <p className="subtitle">Tools & Technologies</p>
                 <p>HTML5 | CSS3 | LESS | Bootstrap |</p>
                 <p>JavaScript | jQuery | React.js | Node.js | Express |</p> 
                 <p>MongoDB | Mongoose |</p>
                 <p>Git | GitHub | Microsoft Office | MATLAB</p>
             </div>
             <div>
-                <p className="headline">Soft Skills</p>
+                <p className="subtitle">Soft Skills</p>
                 <p>
                     Teamwork | Problem Solving | Pair Programming | Agile Methodologies
                 </p>
             </div>
             <div>
-                <p className="headline">Languages</p>
+                <p className="subtitle">Languages</p>
                 <p>English | Serbian</p>
             </div>
         </div>

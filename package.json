@@ -16,10 +16,10 @@
     "server": "nodemon server.js",
     "client": "cd client && yarn run start",
     "db:reset": "node server/db/seeds",
-    "dev": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run client\"",
+    "dev": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run client\" \"yarn lessc\"",
     "heroku-postbuild": "cd client && yarn && yarn run build",
     "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write",
-    "lessc": "cd client/src && /usr/local/bin/lessc App.less App.css"
+    "lessc": "cd client/src && /usr/local/bin/less-watch-compiler less css"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
