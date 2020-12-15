@@ -65,7 +65,7 @@ const About = () => {
                     </div>
                     <div>
                         <button name='skills' className={tab==="skills"? 'active': ''} onClick={handleClick}>
-                            <h6 className="title">SKILLS & TECHNOLOGIES</h6>
+                            <h6 className="title">SKILLS & TECH<span className="no-display">NOLOGIES</span></h6>
                         </button>
                     </div>
                 </div>
