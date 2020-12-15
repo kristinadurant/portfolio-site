@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1280px) {
+  #about .tabs .where {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  #portfolio ul li {
+    width: 48%;
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  html {
+    font-size: 12px;
+  }
+  #intro h1 p {
+    font-size: 1.5rem;
+    max-width: 90%;
+    margin: auto;
+  }
+  #about {
+    align-items: flex-start;
+  }
+  #about .inner {
+    flex-direction: column-reverse;
+  }
+  #about #more {
+    width: 100%;
+    margin-right: 0;
+  }
+  #about .tabs {
+    display: flex;
+  }
+  #about .tabs h6 + * {
+    display: none;
+  }
+}
