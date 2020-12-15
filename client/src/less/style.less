@@ -254,12 +254,20 @@ h6 {
 #portfolio .gif p {
   color: #000;
   font-weight: 900;
+  margin-bottom: 2%;
+  height: 0;
+  transition: height 0.5s;
+  transition-delay: 1s;
+  overflow: hidden;
 }
 #portfolio .gif p i {
   color: #000;
 }
 #portfolio li:hover .gif {
   display: flex;
+}
+#portfolio li:hover .gif p {
+  height: 2rem;
 }
 /*======================
       CONTACT SECTION
