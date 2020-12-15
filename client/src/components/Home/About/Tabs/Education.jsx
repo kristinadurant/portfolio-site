@@ -3,9 +3,10 @@ import React from 'react';
 const Education = () => {
     return (
         <div>
+            <p className="title">EDUCATION</p>
             <ul>
                 <li>
-                    <h2 className="headline">Full Stack Web Developer</h2>
+                    <h2 className="subtitle">Full Stack Web Developer</h2>
                     <p className="where">Wyncode Academy, Miami Beach, FL</p>
                     <p className="time">Sept, 2020 - Dec, 2020</p>
                     <ul className="list-indented">
@@ -16,7 +17,7 @@ const Education = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="headline">Master's in Applied Mathematics - <br/>Financial Mathematics</h2>
+                    <h2 className="subtitle">Master's in Applied Mathematics - <br/>Financial Mathematics</h2>
                     <p className="where">University of Sciences, Novi Sad, Serbia</p>
                     <p className="time">Oct, 2012 - Sept, 2015</p>
                     <ul className="list-indented">
@@ -27,7 +28,7 @@ const Education = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="headline">Bachelor's in Applied Mathematics - <br/>Financial Mathematics</h2>
+                    <h2 className="subtitle">Bachelor's in Applied Mathematics - <br/>Financial Mathematics</h2>
                     <p className="where">University of Sciences, Novi Sad, Serbia</p>
                     <p className="time">Oct, 2009 - Sept, 2012</p>
                     <ul className="list-indented">

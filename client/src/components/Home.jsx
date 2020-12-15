@@ -9,10 +9,10 @@ const Home = () => {
     return (
         <div id="home">
             <Banner />
+            <Portfolio />
             <TabsContextProvider>
                 <About />
-            </TabsContextProvider>           
-            <Portfolio />
+            </TabsContextProvider>                     
             <Contact />
         </div>
     )
