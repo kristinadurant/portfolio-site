@@ -43,6 +43,7 @@ footer {
   background-image: url(../images/developerbg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: rgb(12, 12, 12);
   background-attachment: fixed;
 }
@@ -141,14 +142,14 @@ header li:first-of-type {
   list-style: square;
   margin-left: 1.5rem;
 }
+#about .info p {
+  margin-bottom: 5%;
+}
 #about .skills div {
   margin-bottom: 10%;
 }
 #about .skills .subtitle {
   margin-bottom: 1.5rem;
-}
-#about .skills p {
-  margin-bottom: 0.5rem;
 }
 #about .tabs > div {
   margin-bottom: 10%;
@@ -216,7 +217,8 @@ h6 {
 }
 #portfolio ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 #portfolio ul li {
   width: 24%;
@@ -225,6 +227,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 2%;
 }
 #portfolio ul a {
   height: 100%;
