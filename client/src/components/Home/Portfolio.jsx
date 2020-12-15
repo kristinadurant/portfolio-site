@@ -6,25 +6,25 @@ const Portfolio = () => {
         {
             title: 'CLN ALT',
             image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607876074/portfolio-site/Screen_Shot_2020-12-13_at_11.12.51_AM_pnw5c2.png',
-            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607976642/portfolio-site/ezgif.com-gif-maker_5_zcm2nm.gif',
+            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1608065877/portfolio-site/ezgif.com-gif-maker_2_dqvrvx.gif',
             link: 'https://clnalt.herokuapp.com/'
         },
         {
             title: 'Pokecode',
             image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607970931/portfolio-site/Screen_Shot_2020-12-14_at_11.47.17_AM_echehu.png',
-            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607975864/portfolio-site/ezgif.com-gif-maker_k4lodc.gif',
+            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1608066283/portfolio-site/ezgif.com-gif-maker_3_zq7kkd.gif',
             link: 'https://pokedex-catchthemall.herokuapp.com/'
         },
         {
             title: 'Morning Sun Blog',
             image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607901610/portfolio-site/Screen_Shot_2020-12-13_at_6.18.57_PM_ebdzeq.png',
-            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607758383/portfolio-site/morningsun_ze4vfh.png',
+            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1608066906/portfolio-site/ezgif.com-gif-maker_5_qbppk7.gif',
             link: 'http://morningsunblog.com/'
         },
         {
             title: 'Schoen Builders',
             image: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607971148/portfolio-site/Screen_Shot_2020-12-14_at_1.38.50_PM_n7abrm.png',
-            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1607758380/portfolio-site/schoen_i4uvwh.png',
+            gif: 'https://res.cloudinary.com/dyk6u3np0/image/upload/v1608066675/portfolio-site/ezgif.com-gif-maker_4_vbw2hm.gif',
             link: 'http://schoenbuilders.com/'
         }
     ]

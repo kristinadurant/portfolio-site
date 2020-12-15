@@ -110,7 +110,6 @@ header li:first-of-type {
       ABOUT SECTION
   ========================*/
 #home #about {
-  background-color: rgb(34 9 0.53684211%);
   display: flex;
   align-items: center;
   justify-content: center;
