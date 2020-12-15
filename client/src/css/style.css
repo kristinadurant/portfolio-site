@@ -70,6 +70,21 @@ header li {
 header li:first-of-type {
   border-left: none;
 }
+.logo {
+  position: relative;
+  width: 50px;
+  line-height: 20px;
+  font-weight: 900;
+}
+.logo :first-child {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+}
+.logo :last-child {
+  color: #66fcf1;
+  vertical-align: sub;
+  font-style: italic;
+}
 /*======================
       INTRO SECTION
   ========================*/
