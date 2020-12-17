@@ -40,6 +40,9 @@
     max-width: 90%;
     margin: auto;
   }
+  #home #about {
+    align-items: flex-start;
+  }
   #about .inner {
     flex-direction: column-reverse;
     justify-content: flex-end;
