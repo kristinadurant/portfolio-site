@@ -1,10 +1,10 @@
 import React from 'react';
-import pdf from '../../pdf/Kristina_Durant_resume.pdf'
+import pdf from '../../assets/pdf/Kristina_Durant_resume.pdf';
 
 const Contact = () => {
     return (
         <section id="contact">
-            <h3>GET IN TOUCH</h3>
+            <h2>GET IN TOUCH</h2>
             <ul>
                 <li>
                 <i class="fas fa-envelope"></i> kristinadurant.p@gmail.com

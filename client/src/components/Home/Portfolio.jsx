@@ -28,10 +28,10 @@ const Portfolio = () => {
             link: 'http://schoenbuilders.com/'
         }
     ]
-console.log(portfolio);
+
     return (
         <section id="portfolio">
-            <h3>PORTFOLIO</h3>
+            <h2>PORTFOLIO</h2>
             <ul>
                 {portfolio.map((site, index)=> (
                     <li key={index} style={{backgroundImage: `url(${site.image})`}}>
@@ -40,6 +40,7 @@ console.log(portfolio);
                             <p>{site.title} <i class="fas fa-external-link-alt"></i></p>
                         </div>                       
                         <a href={site.link} target="_blank" rel="noreferrer">
+                            <span className='hide'>{site.title}</span>
                         </a>
                     </li>
                 )
