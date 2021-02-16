@@ -17,12 +17,6 @@ const About = () => {
         <section id="about">
             <span className='hide'><h2>About</h2></span>
             <div className="inner">  
-                <div id="more">
-                    {tab==="info" && <Info />}
-                    {tab==="experience" && <Experience />}
-                    {tab==="education" && <Education />}
-                    {tab==="skills" && <Skills />}
-                </div>
                 <div className='tabs'>
                     <div name="info">
                         <button name="info" className={tab==="info"? 'active': ''} onClick={handleClick}>
@@ -69,6 +63,12 @@ const About = () => {
                             <p className="title">SKILLS & TECH<span className="no-display">NOLOGIES</span></p>
                         </button>
                     </div>
+                </div>
+                <div id="more">
+                    {tab==="info" && <Info />}
+                    {tab==="experience" && <Experience />}
+                    {tab==="education" && <Education />}
+                    {tab==="skills" && <Skills />}
                 </div>
             </div>
         </section>

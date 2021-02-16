@@ -47,17 +47,17 @@
     align-items: flex-start;
   }
   #about .inner {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: flex-end;
   }
   #about #more {
     width: 100%;
-    margin-right: 0;
   }
   #about .tabs {
     display: flex;
+    margin-right: 0;
   }
-  #about .tabs h6 + *,
+  #about .tabs .title + *,
   .no-display {
     display: none;
   }

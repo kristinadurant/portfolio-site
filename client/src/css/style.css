@@ -130,6 +130,8 @@ header li:first-of-type {
 }
 #about #more {
   width: 50%;
+}
+#about .tabs {
   margin-right: 10%;
 }
 #about #more > div > ul > li {
