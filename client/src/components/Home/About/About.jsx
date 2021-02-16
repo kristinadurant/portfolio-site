@@ -15,6 +15,7 @@ const About = () => {
 
     return (
         <section id="about">
+            <span className='hide'><h2>About</h2></span>
             <div className="inner">  
                 <div id="more">
                     {tab==="info" && <Info />}
@@ -25,24 +26,24 @@ const About = () => {
                 <div className='tabs'>
                     <div name="info">
                         <button name="info" className={tab==="info"? 'active': ''} onClick={handleClick}>
-                            <h6 className="title">KRISTINA DURANT</h6>
+                            <p className="title">KRISTINA DURANT</p>
                             <p>Full Stack Web Developer</p>
                         </button>
                     </div>
                     <div>
                         <button name="experience" className={tab==="experience"? 'active': ''} onClick={handleClick}>
-                            <h6 className="title">EXPERIENCE</h6>
+                            <p className="title">EXPERIENCE</p>
                             <ul>
                                 <li>
-                                    <h5 className="subtitle">Frontend Web Developer</h5>
+                                    <p className="subtitle">Frontend Web Developer</p>
                                     <p className="where">Freelance</p>
                                 </li>
                                 <li>
-                                    <h5 className="subtitle">Server/Maitre D</h5>
+                                    <p className="subtitle">Server/Maitre D</p>
                                     <p className="where">Quality Meats, Miami Beach, FL</p>
                                 </li>
                                 <li>
-                                    <h5 className="subtitle">Math Tutor</h5>
+                                    <p className="subtitle">Math Tutor</p>
                                     <p className="where">Self-employed, Subotica, Serbia</p>
                                 </li>
                             </ul>
@@ -50,14 +51,14 @@ const About = () => {
                     </div>
                     <div>
                         <button name='education' className={tab==="education"? 'active': ''} onClick={handleClick}>
-                            <h6 className="title">EDUCATION</h6>
+                            <p className="title">EDUCATION</p>
                             <ul>
                                 <li>
-                                    <h5 className="subtitle">Full Stack Web Developer</h5>
+                                    <p className="subtitle">Full Stack Web Developer</p>
                                     <p className="where">Wyncode Academy, Miami, FL</p>
                                 </li>
                                 <li>
-                                    <h5 className="subtitle">Master's in Applied Mathematics - <br/>Financial Mathematics</h5>
+                                    <p className="subtitle">Master's in Applied Mathematics - <br/>Financial Mathematics</p>
                                     <p className="where">University of Sciences, Novi Sad, Serbia</p>
                                 </li>
                             </ul>
@@ -65,7 +66,7 @@ const About = () => {
                     </div>
                     <div>
                         <button name='skills' className={tab==="skills"? 'active': ''} onClick={handleClick}>
-                            <h6 className="title">SKILLS & TECH<span className="no-display">NOLOGIES</span></h6>
+                            <p className="title">SKILLS & TECH<span className="no-display">NOLOGIES</span></p>
                         </button>
                     </div>
                 </div>

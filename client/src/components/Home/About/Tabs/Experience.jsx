@@ -6,7 +6,7 @@ const Experience = () => {
             <h3 className="title">EXPERIENCE</h3>
             <ul>
                 <li>
-                    <h2 className="subtitle">Frontend Web Developer</h2>
+                    <h4 className="subtitle">Frontend Web Developer</h4>
                     <p className="where">Freelance</p>
                     <p className="time">Nov, 2016 - Present</p>
                     <ul className="list-indented">
@@ -18,7 +18,7 @@ const Experience = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="subtitle">Server/Maitre D</h2>
+                    <h4 className="subtitle">Server/Maitre D</h4>
                     <p className="where">Quality Meats, Miami Beach, FL</p>
                     <p className="time">Sept, 2017 - March, 2020</p>
                     <ul  className="list-indented">
@@ -31,7 +31,7 @@ const Experience = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="subtitle">Math Tutor</h2>
+                    <h4 className="subtitle">Math Tutor</h4>
                     <p className="where">Self-employed, Subotica, Serbia</p>
                     <p className="time">Oct, 2014 - June, 2017</p>
                     <ul className="list-indented">
