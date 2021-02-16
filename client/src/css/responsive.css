@@ -8,8 +8,11 @@
     font-size: 14px;
   }
   #portfolio ul li {
-    width: 48%;
-    padding-top: 38%;
+    width: 32%;
+    padding-top: 25%;
+  }
+  #portfolio .gif p {
+    display: none;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -54,7 +57,7 @@
   #about .tabs {
     display: flex;
   }
-  #about .tabs p.title + *,
+  #about .tabs h6 + *,
   .no-display {
     display: none;
   }
