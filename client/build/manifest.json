@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "kika_website_development-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "kika_website_development-383.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "383x383"
     }
   ],
   "start_url": ".",

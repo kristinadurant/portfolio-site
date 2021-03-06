@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4031a71.chunk.css",
-    "main.js": "/static/js/main.5e4d8975.chunk.js",
-    "main.js.map": "/static/js/main.5e4d8975.chunk.js.map",
+    "main.css": "/static/css/main.25e57669.chunk.css",
+    "main.js": "/static/js/main.3b7e748d.chunk.js",
+    "main.js.map": "/static/js/main.3b7e748d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
     "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
     "static/js/2.2faa5fd8.chunk.js": "/static/js/2.2faa5fd8.chunk.js",
     "static/js/2.2faa5fd8.chunk.js.map": "/static/js/2.2faa5fd8.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e4031a71.chunk.css.map": "/static/css/main.e4031a71.chunk.css.map",
+    "static/css/main.25e57669.chunk.css.map": "/static/css/main.25e57669.chunk.css.map",
     "static/js/2.2faa5fd8.chunk.js.LICENSE.txt": "/static/js/2.2faa5fd8.chunk.js.LICENSE.txt",
     "static/media/Kristina_Durant_resume.1738bb14.pdf": "/static/media/Kristina_Durant_resume.1738bb14.pdf",
     "static/media/style.css": "/static/media/developerbg.42527d80.jpeg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.c012fedc.js",
     "static/js/2.2faa5fd8.chunk.js",
-    "static/css/main.e4031a71.chunk.css",
-    "static/js/main.5e4d8975.chunk.js"
+    "static/css/main.25e57669.chunk.css",
+    "static/js/main.3b7e748d.chunk.js"
   ]
 }
