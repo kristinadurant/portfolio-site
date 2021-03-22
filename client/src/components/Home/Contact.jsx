@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../assets/pdf/Kristina_Durant_resume.pdf';
+import pdf from '../../assets/pdf/Kristina_Durant_Resume.pdf';
 
 const Contact = () => {
     return (

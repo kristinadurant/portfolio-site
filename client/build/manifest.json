@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kika Dev",
+  "name": "Kika Website Development",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "kika_website_development-192.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "kika_website_development-383.png",
+      "src": "logo512.png",
       "type": "image/png",
-      "sizes": "383x383"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
