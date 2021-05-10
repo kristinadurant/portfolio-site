@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div id="home">
             <Banner />
-            <Portfolio />
+            {/* <Portfolio /> */}
             <TabsContextProvider>
                 <About />
             </TabsContextProvider>                     
